@@ -411,7 +411,7 @@ function tambahan(){
     dpkg -i /tmp/gotop.deb >/dev/null 2>&1
 
     # > Pasang Limit
-    wget -qO /tmp/limit.sh "${REPO}limit/limit.sh" >/dev/null 2>&1
+    wget -qO /tmp/limit.sh "${REPO}bin/limit.sh" >/dev/null 2>&1
     chmod +x /tmp/limit.sh && bash /tmp/limit.sh >/dev/null 2>&1
 
     # > Pasang BBR Plus
