@@ -3,7 +3,7 @@
 dateFromServer=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 biji=`date +"%Y-%m-%d" -d "$dateFromServer"`
 ###########- COLOR CODE -##############
-REPO="https://raw.githubusercontent.com/myridwan/abc/ipuk/"
+REPO="https://raw.githubusercontent.com/arismaramar/abc/main/"
 echo -e " [INFO] Downloading Update File" | lolcat
 sleep 2
 rm -rf /tmp/menu
