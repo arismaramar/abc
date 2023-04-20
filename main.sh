@@ -20,10 +20,8 @@ echo ''
 echo -e "$green.........................................................."$NC
 echo -e "$BGBLUE                ⚡ PREMIUM SPEED SCRIPT ⚡                "$NC
 echo -e "$green.........................................................."$NC
-echo -e "               Autoscript Mod By ( Kyt Project )" | lolcat
+echo -e "               Autoscript anggun" | lolcat
 echo -e "                    CONTACT TELEGRAM"$NC | lolcat
-echo -e "                       @Kytxz"$NC | lolcat
-echo -e "                       @rstorx"$NC | lolcat
 echo -e "$green.........................................................."$NC
 echo -e "$BGBLUE                       Tunggu 5 Detik!                    "$NC
 echo -e "$green.........................................................."$NC
@@ -74,11 +72,11 @@ CITY=$(curl -s ipinfo.io/city)
 TIME=$(date +'%Y-%m-%d %H:%M:%S')
 RAMMS=$(free -m | awk 'NR==2 {print $2}')
 TIMES="10"
-CHATID="-1001956940889"
-KEY="6006599143:AAEgstCAioq35JgX97HaW_G3TAkLKzLZS_w"
+CHATID="1423578532"
+KEY="5973249718:AAEQEcWIjxwTMylzckC1letVvxwSYRRNepU"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
-REPO="https://raw.githubusercontent.com/myridwan/abc/ipuk/"
-CDNF="https://raw.githubusercontent.com/myridwan/abc/ipuk"
+REPO="https://raw.githubusercontent.com/arismaramar/abc/main/"
+CDNF="https://raw.githubusercontent.com/arismaramar/abc/main"
 APT="apt-get -y install "
 domain=$(cat /root/domain)
 start=$(date +%s)
@@ -444,9 +442,9 @@ account default
 host smtp.gmail.com
 port 587
 auth on
-user taibabihutan17@gmail.com
-from taibabihutan17@gmail.com
-password romanisti
+user fightertunnel@gmail.com
+from fightertunnel@gmail.com
+password zlmthivqlsbypost
 logfile ~/.msmtp.log
 EOF
 
