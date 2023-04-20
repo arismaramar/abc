@@ -1,6 +1,5 @@
 #!/bin/bash
 #!/bin/bash
-# Color Validation
 Lred='\e[1;91m'
 Lgreen='\e[92m'
 Lyellow='\e[93m'
